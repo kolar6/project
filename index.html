@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <input type="number" name="date" id="date">date
-    <input type="number" name="month" id="month">month
-    <input type="number" name="year" id="year">year
-    <button onclick="result()">get age</button>
+<body id="body">
+    <h1>Age Calculator</h1>
+    <div id="maindiv">
+    Date    <input type="number" name="date" id="date"><br><br>
+    Month  <input type="number" name="month" id="month"> <br><br>
+    Year   <input type="number" name="year" id="year"><br><br>
+    <button onclick="result()">GET AGE</button>
+    </div>
 
-    <p id="ageis">your age is</p>
+    <p id="ageis"></p>
     <div id="invalid-input"></div>
 
     <script src="script.js"></script>
